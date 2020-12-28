@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc02b61f-cd3d-45e9-9d95-554c10977cb1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mF87NY7Xhf68fBkYbLutpQ5brJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="$USER_HOME$/n/bin/node" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/n/lib/node_modules/prettier" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc02b61f-cd3d-45e9-9d95-554c10977cb1" name="Default Changelist" comment="" />
+      <created>1609077810895</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609077810895</updated>
+      <workItem from="1609077811922" duration="5189000" />
+      <workItem from="1609144822231" duration="14278000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="733" y="355" width="515" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609151000195">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="733" y="355" width="515" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1609151000195" />
+    <state x="492" y="188" width="1007" height="737" key="SettingsEditor" timestamp="1609149032856">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="492" y="188" width="1007" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1609149032856" />
+    <state x="700" y="292" width="592" height="522" key="find.popup" timestamp="1609149130363">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="700" y="292" width="592" height="522" key="find.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1609149130363" />
+    <state x="800" y="465" width="381" height="183" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1609163228308">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="800" y="465" width="381" height="183" key="git4idea.remote.GitConfigureRemotesDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1609163228308" />
+    <state x="660" y="252" key="run.anything.popup" timestamp="1609158150315">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="660" y="252" key="run.anything.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1609158150315" />
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1609151982739">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1609151982739" />
+  </component>
+</project>
