@@ -10,7 +10,12 @@ const setupBall = (physics, gameState) => {
       z: initialBallPosition.z,
       mass: 5,
     },
-    { lambert: { color: 0x00ff00 } }
+    {
+      custom: new THREE.MeshPhongMaterial({
+        color: 0x640000,
+        shininess: 100,
+      }),
+    }
   );
 
   physics.add.existing(ball);
@@ -18,7 +23,7 @@ const setupBall = (physics, gameState) => {
   ball.body.setGravity(0, -30, 0);
 
   // Enable CCD if the object moves more than 1 meter in one simulation frame
-  ball.body.setCcdMotionThreshold(0.1);
+  ball.body.setCcdMotionThreshold(0.05);
 
   // Set the radius of the embedded sphere such that it is smaller than the object
   ball.body.setCcdSweptSphereRadius(0.2);
@@ -30,7 +35,11 @@ const setupBall = (physics, gameState) => {
       gameState.starsLeft === 0
     ) {
       gameState.nextLevel = true;
-    } else if (otherObject.name === "star" && otherObject.visible) {
+    } else if (
+      otherObject.name === "gem" &&
+      otherObject.visible &&
+      event === "start"
+    ) {
       otherObject.visible = false;
       otherObject.body.setCollisionFlags(6);
       gameState.starsLeft--;
@@ -46,7 +55,7 @@ const setupBall = (physics, gameState) => {
 const MainScene = async () => {
   const { renderer, camera } = setupRenderer();
 
-  const levelPath = "./platform_stars.json";
+  const levelPath = "./level1.json";
 
   let levelConfig = null;
 
@@ -78,7 +87,7 @@ const MainScene = async () => {
       scene,
       physics,
       starsCount,
-    } = await loadLevel(levelPath, true);
+    } = await loadLevel(levelPath, false);
 
     controlsState.cameraAngle = 0;
     gameState.initialBallPosition = initialBallPosition;

@@ -20,14 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc02b61f-cd3d-45e9-9d95-554c10977cb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/animation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/controls.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/loadLevel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/main_old.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/setupRenderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/animation.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/animation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/loadLevel.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/loadLevel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +51,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../laby" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="$USER_HOME$/n/bin/node" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/n/lib/node_modules/prettier" />
@@ -76,7 +72,7 @@
       <workItem from="1609164088090" duration="7368000" />
       <workItem from="1609233826413" duration="25399000" />
       <workItem from="1609419624964" duration="3458000" />
-      <workItem from="1609590305961" duration="76000" />
+      <workItem from="1609590305961" duration="13742000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1609163387067</created>
@@ -92,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609247088187</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactoring">
+      <created>1609590515131</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609590515131</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,29 +117,34 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="functional poc" />
-    <option name="LAST_COMMIT_MESSAGE" value="functional poc" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
   <component name="WindowStateProjectService">
     <state x="733" y="355" width="515" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609151000195">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="733" y="355" width="515" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1609151000195" />
-    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1609262754866">
+    <state x="172" y="127" width="1648" height="853" key="DiffContextDialog" timestamp="1609603421897">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1609262754866" />
+    <state x="172" y="127" width="1648" height="853" key="DiffContextDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1609603421897" />
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1609591767837">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1609591767837" />
     <state x="492" y="188" width="1007" height="737" key="SettingsEditor" timestamp="1609149032856">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="492" y="188" width="1007" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1609149032856" />
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1609163395389">
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1609590516870">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1609163395389" />
-    <state x="700" y="292" width="592" height="522" key="find.popup" timestamp="1609260741850">
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1609590516870" />
+    <state x="700" y="292" width="592" height="522" key="find.popup" timestamp="1609602226275">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="700" y="292" width="592" height="522" key="find.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1609260741850" />
+    <state x="700" y="292" width="592" height="522" key="find.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1609602226275" />
     <state x="800" y="465" width="381" height="183" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1609163228308">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -145,9 +153,9 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="660" y="252" key="run.anything.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1609158150315" />
-    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1609151982739">
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1609599680248">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1609151982739" />
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1609599680248" />
   </component>
 </project>

@@ -30,8 +30,8 @@ window.getAnimationFunction = (
   const MAX_ANGLE = Math.PI / 12;
   const MAX_DELTA = 0.2;
   const CAMERA_ROTATION_SPEED = 0.07;
-  const CAMERA_BALL_RADIUS = 10;
-  const CAMERA_BALL_HEIGHT = 10;
+  const CAMERA_BALL_RADIUS = 20;
+  const CAMERA_BALL_HEIGHT = 20;
   const BALL_LOSE_HEIGHT = -30;
 
   const {
@@ -94,19 +94,6 @@ window.getAnimationFunction = (
 
     level.rotation.z = limitToRange(level.rotation.z, -MAX_ANGLE, MAX_ANGLE);
     level.rotation.x = limitToRange(level.rotation.x, -MAX_ANGLE, MAX_ANGLE);
-
-    // if (ball.body.velocity.y > 5) {
-    //   console.log(ball.body.velocity);
-    //   console.log("force");
-    //   ball.body.applyForceY(-2);
-    // }
-
-    // ball.body.velocity = {
-    //   x: limitToRange(ball.body.velocity.x, -5, 5),
-    //   y: limitToRange(ball.body.velocity.y, -5, 5),
-    //   z: limitToRange(ball.body.velocity.z, -5, 5),
-    // };
-    // console.log(ball.body.velocity);
   }
 
   level.children.forEach((child) => {
