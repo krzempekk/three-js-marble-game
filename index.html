@@ -5,14 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Balance</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./lib/three.min.js"></script>
-    <script src="./lib/FBXLoader.js"></script>
-    <script src="./lib/enable3d.ammoPhysics.0.20.0.min.js"></script>
-    <script src="./lib/OrbitControls.js"></script>
-    <script src="./lib/inflate.min.js"></script>
+    <script src="lib/three.min.js"></script>
+    <script src="lib/FBXLoader.js"></script>
+    <script src="lib/enable3d.ammoPhysics.0.20.0.min.js"></script>
+    <script src="lib/OrbitControls.js"></script>
+    <script src="lib/inflate.min.js"></script>
 </head>
 <body>
-    <script src="./js/main.js"></script>
+    <div id="overlay">
+        <div id="modal">
+            <h1 class="title">Ballance game</h1>
+            <div class="subtitle">Collect all stars and get to the flag as soon as possible. Don't fall!</div>
+            <h3 class="controls-title">CONTROLS</h3>
+            <div class="controls-description">
+                <div class="controls-item">move mouse to rotate platform</div>
+                <div class="controls-item">mouse wheel up/down - rotate camera left/right</div>
+            </div>
+            <button id="start" class="start">Start</button>
+        </div>
+    </div>
+    <div id="state">
+        <div id="timer"></div>
+        <div id="star-counter"></div>
+    </div>
+    <script src="js/setupRenderer.js"></script>
+    <script src="js/loadLevel.js"></script>
+    <script src="js/controls.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
